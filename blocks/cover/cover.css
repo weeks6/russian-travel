@@ -1,10 +1,14 @@
 .cover {
+  background-image: url("../../images/cover-trains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-decoration: none;
   margin: 0 auto;
   margin-top: 92px;
   display: grid;
   justify-items: center;
   width: 92.5%;
+  min-height: 740px;
 }
 
 .cover:hover > .cover__overlay {
@@ -15,17 +19,20 @@
   .cover {
     margin-top: 66px;
     width: 100%;
+    min-height: 200px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
     width: 100%;
+    min-height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover {
     width: 100%;
+    min-height: 640px;
   }
 }
