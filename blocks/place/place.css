@@ -1,0 +1,36 @@
+.place {
+  display: grid;
+  width: 76.875%;
+  margin: 0 auto;
+  margin-top: 80px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px 40px;
+}
+
+.place:first-child {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place {
+    width: 100%;
+    grid-template-columns: 100%;
+    gap: 32px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    width: 93.75%;
+    gap: 48px 28px;
+    margin-top: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    width: 90.625%;
+    gap: 48px 32px;
+  }
+}

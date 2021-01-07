@@ -1,0 +1,12 @@
+.intro__text {
+  display: block;
+  margin: 0;
+  max-width: 690px;
+  margin-top: 40px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--color-text-primary);
+}
