@@ -1,6 +1,7 @@
 .place {
   display: grid;
   width: 76.875%;
+  max-width: 984px;
   margin: 0 auto;
   margin-top: 80px;
   grid-template-columns: repeat(2, 1fr);
@@ -14,6 +15,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place {
     width: 100%;
+    justify-content: center;
     grid-template-columns: 100%;
     gap: 32px;
     margin-top: 50px;

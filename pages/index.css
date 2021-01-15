@@ -1,14 +1,17 @@
 @import "../vendor/normalize.css";
+@import "../vendor/fonts.css";
 @import "../blocks/root/root.css";
 
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__lang-links/header__lang-links.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
 
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__figure/lead__figure.css";
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__caption/lead__caption.css";
 
@@ -38,5 +41,6 @@
 @import "../blocks/cover/__background/cover__background.css";
 
 @import "../blocks/footer/footer.css";
+@import "../blocks/footer/__links/footer__links.css";
 @import "../blocks/footer/__link/footer__link.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";

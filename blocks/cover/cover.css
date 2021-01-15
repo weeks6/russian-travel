@@ -8,11 +8,8 @@
   display: grid;
   justify-items: center;
   width: 92.5%;
+  max-width: 1184px;
   min-height: 740px;
-}
-
-.cover:hover > .cover__overlay {
-  opacity: 0.8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
