@@ -42,5 +42,6 @@
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link-item/footer__link-item.css";
 @import "../blocks/footer/__link/footer__link.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
