@@ -11,4 +11,4 @@
 - CSS
 - CSS Grid
 
-[https://weeks6.github.io/russian-travel] (Посмотреть страницу на Github Pages)
+[Посмотреть страницу на Github Pages](https://weeks6.github.io/russian-travel)
